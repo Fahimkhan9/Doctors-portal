@@ -8,10 +8,11 @@ import Testomonial from './Testomonial'
 import Blog from './Blog'
 import DoctorsProfile from './DoctorsProfile'
 import Contact from './Contact'
+import Footer from './Footer'
 
 function Home() {
     return (
-        <div >
+        <div className="container">
             <Header/>
             <Sevices/>
             <FeatureService/>
@@ -20,7 +21,7 @@ function Home() {
             <Blog/>
 <DoctorsProfile/>
 <Contact/>
-
+<Footer/>
         </div>
     )
 }

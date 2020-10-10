@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 function Contact() {
     return (
-     <section className="contact p-3 ">
+     <section className="contact p-3 mb-5">
 <div className="container">
     <div className="text-center">
         <h5 className="text-uppercase" style={{color:"#1CC7C1"}}>Contact us</h5>
