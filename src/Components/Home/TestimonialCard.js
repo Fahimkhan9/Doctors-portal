@@ -3,7 +3,7 @@ import React from 'react'
 
 function TestimonialCard({data}) {
     return (
-        <div class="card col-md-3  mr-3"  >
+        <div class="card  col-md-3  mr-3"  >
         <div class="card-body">
           
     <p class="card-text">{data.des}</p>

@@ -5,6 +5,7 @@ import Sevices from './Sevices'
 import MakeAppointment from './MakeAppointment'
 import Testomonial from './Testomonial'
 import Blog from './Blog'
+import DoctorsProfile from './DoctorsProfile'
 
 function Home() {
     return (
@@ -15,6 +16,8 @@ function Home() {
             <MakeAppointment/>
             <Testomonial/>
             <Blog/>
+<DoctorsProfile/>
+
         </div>
     )
 }
