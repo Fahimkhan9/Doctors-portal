@@ -6,6 +6,7 @@ import MakeAppointment from './MakeAppointment'
 import Testomonial from './Testomonial'
 import Blog from './Blog'
 import DoctorsProfile from './DoctorsProfile'
+import Contact from './Contact'
 
 function Home() {
     return (
@@ -17,6 +18,7 @@ function Home() {
             <Testomonial/>
             <Blog/>
 <DoctorsProfile/>
+<Contact/>
 
         </div>
     )
