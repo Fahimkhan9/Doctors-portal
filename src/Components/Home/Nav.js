@@ -1,10 +1,11 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Nav() {
     return (
         <div>
           <nav class="navbar navbar-expand-lg navbar-light ">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <NavLink class="navbar-brand" to="/">Navbar</NavLink>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -12,23 +13,23 @@ function Nav() {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link mr-5" href="/">Home <span class="sr-only">(current)</span></a>
+        <NavLink class="nav-link mr-5" to="/">Home <span class="sr-only">(current)</span></NavLink>
       </li>
       <li class="nav-item">
-        <a class="nav-link mr-5" href="/">About</a>
+        <NavLink class="nav-link mr-5" to="/">About</NavLink>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link mr-5" href="/ " >Dental Services</a>
+        <NavLink class="nav-link mr-5" to="/" >Dental Services</NavLink>
       </li>
       <li class="nav-item">
-        <a class="nav-link mr-5 text-white " href="/ " >Reviews</a>
+        <NavLink class="nav-link mr-5 text-white " to="/" >Reviews</NavLink>
       </li>
       <li class="nav-item">
-        <a class="nav-link mr-5 text-white" href="/ ">Blog</a>
+        <NavLink class="nav-link mr-5 text-white" to="/">Blog</NavLink>
       </li>
       <li class="nav-item">
-        <a class="nav-link mr-5 text-white" href="/" >Contact us</a>
+        <NavLink class="nav-link mr-5 text-white"to="/" >Contact us</NavLink>
       </li>
     </ul>
     

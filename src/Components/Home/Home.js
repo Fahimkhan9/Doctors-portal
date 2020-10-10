@@ -2,6 +2,7 @@ import React from 'react'
 import FeatureService from './FeatureService'
 import Header from './Header'
 import Sevices from './Sevices'
+import MakeAppointment from './MakeAppointment'
 
 function Home() {
     return (
@@ -9,6 +10,7 @@ function Home() {
             <Header/>
             <Sevices/>
             <FeatureService/>
+            <MakeAppointment/>
         </div>
     )
 }

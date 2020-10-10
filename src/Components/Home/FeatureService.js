@@ -2,7 +2,7 @@ import React from 'react'
 import feature from '../../images/Mask Group 3.png'
 function FeatureService() {
     return (
-       <section  className="feature-container  d-flex justify-content-center   ">
+       <section  className="feature-container  d-flex justify-content-center mb-5  ">
            <div className="row w-75  ">
                <div className="col-md-5">
                    <img style={{height:"400px"}} src={feature} alt=""/>
