@@ -1,4 +1,5 @@
 import React from 'react'
+import './Home.css'
 import FeatureService from './FeatureService'
 import Header from './Header'
 import Sevices from './Sevices'
@@ -10,7 +11,7 @@ import Contact from './Contact'
 
 function Home() {
     return (
-        <div>
+        <div >
             <Header/>
             <Sevices/>
             <FeatureService/>
