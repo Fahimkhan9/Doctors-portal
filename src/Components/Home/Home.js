@@ -8,7 +8,7 @@ import Testomonial from './Testomonial'
 import Blog from './Blog'
 import DoctorsProfile from './DoctorsProfile'
 import Contact from './Contact'
-import Footer from './Footer'
+import Footer from '../Shared/Footer'
 
 function Home() {
     return (
