@@ -6,7 +6,7 @@ import BusinessInfo from './BusinessInfo'
 function Header() {
     return (
         <div className="header-container">
-            <Nav/>
+            <Nav color="text-white" />
             <HeaderMain/>
             <BusinessInfo/>
         </div>

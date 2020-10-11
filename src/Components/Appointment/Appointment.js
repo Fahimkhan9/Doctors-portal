@@ -16,7 +16,7 @@ function Appointment() {
           <Nav/>
           <AppointmentHeader handleDateChange={handleDateChange} />
           <BookAppointment date={selecteddate}/>
-          {/* <Footer/> */}
+          <Footer/>
         </div>
     )
 }

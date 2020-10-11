@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-function Nav() {
+function Nav(props) {
     return (
         <div>
           <nav class="navbar navbar-expand-lg navbar-light ">
@@ -23,13 +23,13 @@ function Nav() {
         <NavLink class="nav-link mr-5" to="/" >Dental Services</NavLink>
       </li>
       <li class="nav-item">
-        <NavLink class="nav-link mr-5 text-white " to="/" >Reviews</NavLink>
+        <NavLink class={`nav-link mr-5 ${props.color}`} to="/" >Reviews</NavLink>
       </li>
       <li class="nav-item">
-        <NavLink class="nav-link mr-5 text-white" to="/">Blog</NavLink>
+        <NavLink class={`nav-link mr-5 ${props.color}`} to="/">Blog</NavLink>
       </li>
       <li class="nav-item">
-        <NavLink class="nav-link mr-5 text-white"to="/" >Contact us</NavLink>
+        <NavLink class={`nav-link mr-5 ${props.color}`}to="/" >Contact us</NavLink>
       </li>
     </ul>
     

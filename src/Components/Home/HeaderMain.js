@@ -6,7 +6,7 @@ function HeaderMain() {
 <div className="col-md-4 offset-md-1">
 <h1 sstyle={{color:"#3A4256"}}>Your new smile <br/> starts here</h1>
 <p className="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsum, dicta sunt ab non placeat.</p>
-<button className="btn btn-primary text-uppercase">Get Appointment</button>
+<button className="btn text-white text-uppercase" style={{backgroundImage:"linear-gradient(75deg,#19D3AE,#0fcfec)"}}>Get Appointment</button>
 </div>
 <div className="col-md-6">
     <img src={chair} alt="" className="img-fluid"/>

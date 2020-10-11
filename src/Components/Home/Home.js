@@ -13,7 +13,7 @@ import Footer from '../Shared/Footer'
 function Home() {
     return (
         <div className="container">
-            <Header/>
+            <Header />
             <Sevices/>
             <FeatureService/>
             <MakeAppointment/>
